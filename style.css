@@ -1,0 +1,117 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color:rgb(246, 246, 234) ;
+  }
+  .navbar h1{
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    color:beige;
+    padding-left: 11px;
+    padding-top: 0px;
+    
+  }
+  
+  .navbar {
+    background: linear-gradient(to right, rgb(73, 53, 135), beige); ;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 20px;
+  }
+ 
+  
+  .navbar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    text-align: right; 
+  }
+  .dropdown {
+    float: left;
+    position: relative;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    z-index: 1;
+  }
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+  
+  .navbar li {
+    float: right; 
+  }
+  
+  .navbar li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  }
+  
+  .navbar li a:hover {
+    background-color:rgb(214, 186, 186) ;
+  }
+ 
+  
+  .sub-menu {
+    display: none; 
+    position: absolute;
+    background-color: rgb(214, 186, 186);
+  }
+  
+  .navbar li:hover .sub-menu {
+    display: block;
+  }
+  
+  .sub-menu li {
+    clear: both;
+  }
+  
+  .sub-menu li a {
+    color: white;
+    text-decoration: none;
+    padding: 8px 16px;
+    display: block;
+  }
+  
+  .sub-menu li a:hover {
+    background-color: rgb(210, 172, 172);
+  }
+ .cont{
+  padding: 20PX;
+  
+ }
+  .container {
+    max-width: 600px;
+    background-color: rgb(246, 246, 234); 
+    padding: 30px; 
+    border-radius: 15px; 
+    box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.1); 
+    text-align: center;
+
+  }
+  
+  .container h1 {
+    margin-bottom: 20px; 
+    font-size: 24px; 
+    color: rgb(74, 91, 168);
+  }
+  
+  .container p {
+    font-size: 18px; 
+    color:rgb(23, 81, 169); 
+    font-family:s;
+  }
+ 
